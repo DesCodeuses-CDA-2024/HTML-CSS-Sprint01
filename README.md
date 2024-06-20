@@ -39,7 +39,7 @@ Ce projet est dédié à l'apprentissage des bases du développement web, en se 
 
 **Clonez** ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/DesCodeuses/Apprendre-HTML-CSS.git*********
+   git clone https://github.com/DesCodeuses/HTML-CSS-Sprint01.git
 
 
 
