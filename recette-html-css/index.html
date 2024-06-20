@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Petits Plats - Mousse au Chocolat Facile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="marmiton.svg" alt="logo" class="logo">
+        <ul class="nav-items">
+            <li><a href="#photos" class="nav-button">Photos</a></li>
+            <li><a href="#ingredients" class="nav-button">Ingrédients</a></li>
+            <li><a href="#recette" class="nav-button">Recette</a></li>
+            <li><a href="#nutri" class="nav-button">Valeurs Nutritionnelles</a></li>
+            <li><a href="#commentaire" class="nav-button">Un avis ?</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="frame">
+            <div class="recipe">
+                <h1 id="photos">Mousse au Chocolat Facile</h1>
+                <img src="photos/mousse-chocolat.jpg" alt="mousse au chocolat facile" class="mousse">
+                <div class="photos-mousse">
+                    <img src="photos/mousse1.jpg" alt="mousse au chocolat 1" class="mousse-pics">
+                    <img src="photos/mousse2.png" alt="mousse au chocolat 2" class="mousse-pics">
+                    <img src="photos/mousse3.jpg" alt="mousse au chocolat 3" class="mousse-pics">
+                    <img src="photos/mousse4.webp" alt="mousse au chocolat" class="mousse-pics">
+                </div>
+                <p>Une recette <span class="bolder">facile</span> et rapide pour une mousse au chocolat délicieuse.</p>
+                <div id="ingredients">
+                    <p><span class="bold">Ingrédients :</span></p>
+                    <ul>
+                        <li>200g de chocolat noir</li>
+                        <li>200g de crème fraîche</li>
+                        <li>2 œufs</li>
+                        <li>1 cuillère à soupe de sucre</li>
+                    </ul>
+                    <p><span class="bold" id="recette">Recette :</span></p>
+                    <ol>
+                        <li>Faites fondre le chocolat au bain-marie.</li>
+                        <li>Mélangez le chocolat fondu avec la crème fraîche.</li>
+                        <li>Ajoutez les œufs et le sucre.</li>
+                        <li>Mélangez jusqu'à obtenir une mousse lisse.</li>
+                    </ol>
+                </div>
+                <div id="nutri">
+                    <p><span class="bold">Valeurs Nutritionnelles:</span></p>
+                    <div class="recipe-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Elements</th>
+                                    <th>Valeurs pour 100 grammes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Calories</td>
+                                    <td>546kcal</td>
+                                </tr>
+                                <tr>
+                                    <td>Lipides</td>
+                                    <td>31g</td>
+                                </tr>
+                                <tr>
+                                    <td class="sous-tableau">&nbsp; Acides gras saturés</td>
+                                    <td class="sous-tableau">&nbsp; 19g</td>
+                                </tr>
+                                <tr>
+                                    <td class="sous-tableau">&nbsp; Acides gras trans</td>
+                                    <td class="sous-tableau">&nbsp; 0,1g</td>
+                                </tr>
+                                <tr>
+                                    <td>Cholestérol</td>
+                                    <td>8mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Sodium</td>
+                                    <td>24mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Potassium</td>
+                                    <td>559mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Glucides</td>
+                                    <td>61g</td>
+                                </tr>
+                                <tr>
+                                    <td class="sous-tableau">&nbsp; Fibres alimentaires</td>
+                                    <td class="sous-tableau">&nbsp; 7g</td>
+                                </tr>
+                                <tr>
+                                    <td class="sous-tableau">&nbsp; Sucres</td>
+                                    <td class="sous-tableau">&nbsp; 48g</td>
+                                </tr>
+                                <tr>
+                                    <td>Protéines</td>
+                                    <td>4,9g</td>
+                                </tr>
+                                <tr>
+                                    <td>Caféine</td>
+                                    <td>43mg</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="frame" id="commentaire">
+            <form class="form">
+                <label for="username">Nom:</label><br>
+                <input required type="text" id="username" name="username" placeholder="Nom"><br><br>
+                <label for="password">Mot de passe:</label><br>
+                <input required type="password" id="password" name="password" placeholder="Mot de passe"><br><br>
+                <label for="email">E-mail:</label><br>
+                <input required pattern="****@****.**" type="email" id="email" name="email" placeholder="E-mail"><br><br>
+                <label for="commentaire">Commentaire:</label><br>
+                <textarea class="textarea" id="textarea" name="textarea" placeholder="Un avis ?"></textarea><br><br>
+                <input required type="submit" value="Envoyer" class="btn"><br>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
