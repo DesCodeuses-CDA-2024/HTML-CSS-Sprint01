@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscriptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo de l'événement"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="inscriptions.html">Inscriptions</a></li>
+                <li><a href="photos.html">Photos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Inscriptions aux Événements</h1>
+        <p>Inscrivez-vous à nos prochains événements en remplissant le formulaire ci-dessous.</p>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="event">Choisissez un événement :</label>
+            <select id="event" name="event">
+                <option value="evenement1">BootCamps</option>
+                <option value="evenement2">Formations</option>
+                <option value="evenement3">Yoga</option>
+            </select>
+            <input type="submit" value="S'inscrire">
+        </form>
+    </main>
+</body>
+</html>
