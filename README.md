@@ -1,9 +1,9 @@
 # DesCodeuses - Apprendre HTML & CSS
-Bienvenue sur le dépôt GitHub du projet **DesCodeuses** !🚀
+Bienvenue sur le dépôt GitHub du Sprint01, HTML et CSS des **DesCodeuses** !🚀
 
 ## À propos du projet
 
-Ce projet est dédié à l'apprentissage des bases du développement web, en se concentrant spécifiquement sur HTML et CSS. Notre objectif est de fournir une introduction solide à ces technologies essentielles pour permettre aux apprenantes de créer leurs premières pages web.
+Ce GitHub est dédié à l'apprentissage des bases du développement web, en se concentrant spécifiquement sur HTML et CSS. Notre objectif est de fournir une introduction solide à ces technologies essentielles pour permettre aux apprenantes de créer leurs premières pages web.
 
 ## Objectifs
 
